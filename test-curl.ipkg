@@ -1,0 +1,10 @@
+package test-curl
+
+depends = contrib, curl
+
+modules = Main
+sourcedir = "test"
+
+executable = runTests
+main = Main
+

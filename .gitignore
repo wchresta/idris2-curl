@@ -1,0 +1,5 @@
+*.ibc
+*.o
+/result
+/build/
+

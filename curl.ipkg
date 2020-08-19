@@ -1,0 +1,20 @@
+package curl
+
+brief = "Curl bindings for Idris 2"
+version = "0.1-pre-alpha"
+readme = "README.md"
+license = "BSD3, See LICENSE file"
+authors = "Wanja Chresta"
+maintainers = "Wanja Chresta"
+homepage = "https://github.com/wchresta/idris2-curl"
+sourceloc = "https://github.com/wchresta/idris2-curl.git"
+bugtracker = "https://github.com/wchresta/idris2-curl/issues"
+
+sourcedir = "src"
+
+modules = Network.Curl.Easy
+        , Network.Curl.Easy.FFI
+        , Network.Curl.Easy.Enum
+
+depends = base, contrib
+
